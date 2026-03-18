@@ -20,30 +20,30 @@ The Custom Dashboard Builder allows users to create personalized dashboards by c
 
 ## Features
 
-# Dashboard
+*Dashboard*
 - Add widgets (Charts, Table, KPI)  
 - Drag and resize widgets  
 - Save dashboard configuration  
 - Dynamic data from backend API  
 
-#  Charts
+*Charts*
 - Bar Chart  
 - Line Chart  
 - Pie Chart  
 - Area Chart  
 - Scatter Plot  
 
-# Table
+*Table*
 - Displays customer order data  
 
-# KPI Card
+*KPI Card*
 - Shows total revenue / summary values  
 
-# Data Integration
+*Data Integration*
 - Fetches real-time data from Django API  
 - Updates dashboard dynamically  
 
-# Customer Order Module
+*Customer Order Module*
 - Create orders via Django Admin  
 - Stores:  
   - Customer details  
@@ -55,8 +55,9 @@ The Custom Dashboard Builder allows users to create personalized dashboards by c
 # API Endpoints
 - Get Orders: `http://127.0.0.1:8000/api/orders/`  
 - Dashboard Stats: `http://127.0.0.1:8000/api/dashboard/`  
-
-# to Run
+  *username:admin*
+  *password:admin@pass*
+//to Run
 
 *Backend*
 
@@ -81,3 +82,7 @@ dashboard-builder/
 |   ├──pages/
 │
 └── README.md
+
+*working_demo* :
+https://github.com/user-attachments/assets/5dbda936-7889-41ee-acc0-9e184ec4de7f
+
