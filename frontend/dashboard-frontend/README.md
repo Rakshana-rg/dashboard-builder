@@ -1,9 +1,9 @@
 # Custom Dashboard Builder
 
-##  Overview
+# Overview
 The Custom Dashboard Builder allows users to create personalized dashboards by combining multiple widgets such as charts, tables, and KPI cards. The dashboard dynamically displays data from the Customer Order module.
 
-## Tech Stack
+# Tech Stack
 
 *Frontend*
 - React.js  
@@ -68,7 +68,7 @@ python manage.py runserver
 cd frontend/dashboard-frontend
 npm start
 
-*Project Structure*
+Project Structure :
 dashboard-builder/
 │
 ├── backend/
