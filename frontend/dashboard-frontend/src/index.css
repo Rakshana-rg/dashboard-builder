@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT PANEL */
+.sidebar {
+  background: #f8f9fa;
+  height: 100vh;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+/* WIDGET ITEM */
+.widget-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.widget-item:hover {
+  background: #f1f1f1;
+}
+
+/* RIGHT PANEL */
+.canvas {
+  padding: 15px;
+}
+
+/* EMPTY TEXT */
+.empty-box {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+}
+
+/* GRID FIX */
+.react-grid-layout {
+  position: relative;
+}
+
+/* WIDGET BOX */
+.widget-box {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* ACTION BUTTONS */
+.widget-actions {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+}
+
+.widget-box:hover .widget-actions {
+  display: block;
+}
+
+/* SETTINGS PANEL */
+.settings-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  border-left: 1px solid #ccc;
+  padding: 20px;
+  z-index: 999;
+}
